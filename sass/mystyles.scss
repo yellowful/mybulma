@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+$family-sans-serif:'Noto Sans TC',sans-serif;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$tablet:480px;
+$desktop:960px;
+
+// $text:hsl(0, 0%, 96%);
+//$link:#96ccff;
+//$link-hover:#FFC896;
+$link-hover:#dc9b32;
+//$link-active:#96ccff;
+$navbar-item-color:hsl(0, 0%, 96%);
+$navbar-item-hover-color:#96ccff;
+$navbar-item-hover-background-color:#363636;
+$navbar-item-active-color:#96ccff;
+$navbar-item-active-background-color:hsl(0, 0%, 21%);
+$navbar-dropdown-background-color:#363636;
+$navbar-dropdown-item-hover-background-color:#292929;
+$navbar-dropdown-item-hover-color:hsl(0, 0%, 96%);
+$navbar-dropdown-border-top:transparent;
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/icon.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma/sass/components/dropdown.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
+
+
+
