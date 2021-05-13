@@ -1,0 +1,228 @@
+6:18:20 PM: Build ready to start
+6:18:22 PM: build-image version: 0582042f4fc261adc7bd8333f34884959c577302
+6:18:22 PM: build-image tag: v3.7.6
+6:18:22 PM: buildbot version: b202e9eba5b6cc783678acec06610ee45927f6c6
+6:18:22 PM: Fetching cached dependencies
+6:18:22 PM: Starting to download cache of 338.7MB
+6:18:24 PM: Finished downloading cache in 1.653484856s
+6:18:24 PM: Starting to extract cache
+6:18:33 PM: Finished extracting cache in 9.196278989s
+6:18:33 PM: Finished fetching cache in 10.932617204s
+6:18:33 PM: Starting to prepare the repo for build
+6:18:34 PM: Preparing Git Reference refs/heads/main
+6:18:34 PM: Parsing package.json dependencies
+6:18:35 PM: Starting build script
+6:18:35 PM: Installing dependencies
+6:18:35 PM: Python version set to 2.7
+6:18:36 PM: Started restoring cached node version
+6:18:39 PM: Finished restoring cached node version
+6:18:39 PM: Attempting node version 'v14.16.1' from .nvmrc
+6:18:40 PM: v14.16.1 is already installed.
+6:18:40 PM: Now using node v14.16.1 (npm v6.14.12)
+6:18:40 PM: Started restoring cached build plugins
+6:18:40 PM: Finished restoring cached build plugins
+6:18:40 PM: Attempting ruby version 2.7.1, read from environment
+6:18:42 PM: Using ruby version 2.7.1
+6:18:42 PM: Using PHP version 5.6
+6:18:42 PM: Started restoring cached node modules
+6:18:42 PM: Finished restoring cached node modules
+6:18:42 PM: Started restoring cached go cache
+6:18:42 PM: Finished restoring cached go cache
+6:18:42 PM: go version go1.14.4 linux/amd64
+6:18:42 PM: go version go1.14.4 linux/amd64
+6:18:42 PM: Installing missing commands
+6:18:42 PM: Verify run directory
+6:18:44 PM: ​
+6:18:44 PM: ────────────────────────────────────────────────────────────────
+6:18:44 PM:   Netlify Build                                                 
+6:18:44 PM: ────────────────────────────────────────────────────────────────
+6:18:44 PM: ​
+6:18:44 PM: ❯ Version
+6:18:44 PM:   @netlify/build 11.12.0
+6:18:44 PM: ​
+6:18:44 PM: ❯ Flags
+6:18:44 PM:   deployId: 609a59ec24d990e3f3bdd62b
+6:18:44 PM: ​
+6:18:44 PM: ❯ Current directory
+6:18:44 PM:   /opt/build/repo
+6:18:44 PM: ​
+6:18:44 PM: ❯ Config file
+6:18:44 PM:   No config file was defined: using default values.
+6:18:44 PM: ​
+6:18:44 PM: ❯ Context
+6:18:44 PM:   production
+6:18:44 PM: ​
+6:18:44 PM: ────────────────────────────────────────────────────────────────
+6:18:44 PM:   1. Build command from Netlify app                             
+6:18:44 PM: ────────────────────────────────────────────────────────────────
+6:18:44 PM: ​
+6:18:44 PM: $ gatsby build
+6:18:47 PM: success open and validate gatsby-configs - 0.062s
+6:18:47 PM: warning Plugin gatsby-plugin-sitemap is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:47 PM: warning Plugin gatsby-plugin-google-gtag is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:47 PM: warning Plugin gatsby-plugin-react-helmet is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:47 PM: warning Plugin gatsby-source-filesystem is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.2.0
+6:18:47 PM: warning Plugin gatsby-transformer-sharp is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.12.1
+6:18:48 PM: warning Plugin gatsby-plugin-manifest is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.25.0
+6:18:48 PM: warning Plugin gatsby-transformer-remark is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.12.0
+6:18:48 PM: warning Plugin gatsby-plugin-feed is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.4.0
+6:18:48 PM: warning Plugin gatsby-remark-reading-time is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:48 PM: warning Plugin gatsby-remark-responsive-iframe is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:48 PM: warning Plugin gatsby-remark-images-contentful is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.15
+6:18:48 PM: warning Plugin gatsby-remark-prismjs is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:48 PM: warning Plugin gatsby-plugin-sitemap is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:48 PM: warning Plugin gatsby-plugin-google-gtag is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:48 PM: warning Plugin gatsby-plugin-react-helmet is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:48 PM: warning Plugin gatsby-source-filesystem is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.2.0
+6:18:48 PM: warning Plugin gatsby-transformer-sharp is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.12.1
+6:18:48 PM: warning Plugin gatsby-plugin-manifest is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.25.0
+6:18:48 PM: warning Plugin gatsby-remark-reading-time is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:48 PM: warning Plugin gatsby-remark-responsive-iframe is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:48 PM: warning Plugin gatsby-remark-images-contentful is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.15
+6:18:48 PM: warning Plugin gatsby-remark-prismjs is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+6:18:48 PM: warning Plugin gatsby-transformer-remark is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.12.0
+6:18:48 PM: warning Plugin gatsby-plugin-feed is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.4.0
+6:18:49 PM: success load plugins - 1.441s
+6:18:49 PM: success onPreInit - 0.065s
+6:18:49 PM: success initialize cache - 0.005s
+6:18:49 PM: success copy gatsby files - 0.094s
+6:18:49 PM: success onPreBootstrap - 0.015s
+6:18:49 PM: success createSchemaCustomization - 0.152s
+6:18:50 PM: success Contentful: Sync all items - 0.164s - 52/1000 6096.13/s
+6:18:50 PM: success Contentful: Fetch data (c8jv10ugzk2s-master) - 0.574s
+6:18:50 PM: info Updated entries 24
+6:18:50 PM: info Deleted entries 0
+6:18:50 PM: info Updated assets 28
+6:18:50 PM: info Deleted assets 0
+6:18:50 PM: success Contentful: Process data (c8jv10ugzk2s-master) - 0.027s
+6:18:50 PM: info Creating 8 Contentful Blog nodes
+6:18:50 PM: info Creating 2 Contentful allCategory nodes
+6:18:50 PM: info Creating 7 Contentful allTag nodes
+6:18:50 PM: info Creating 2 Contentful Privacy Policy nodes
+6:18:50 PM: info Creating 3 Contentful About nodes
+6:18:50 PM: info Creating 2 Contentful project nodes
+6:18:50 PM: info Creating 28 Contentful asset nodes
+6:18:50 PM: success Contentful: Create nodes (c8jv10ugzk2s-master) - 0.079s
+6:18:50 PM: info Download Contentful asset files
+6:18:50 PM: error (node:1291) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+6:18:50 PM: (Use `node --trace-deprecation ...` to show where the warning was created)
+6:18:50 PM: success Downloading Contentful Assets - 0.669s - 28/28 41.87/s
+6:18:50 PM: success Checking for changed pages - 0.000s
+6:18:50 PM: success source and transform nodes - 1.576s
+6:18:52 PM: success building schema - 1.455s
+6:18:52 PM: success createPages - 0.121s
+6:18:52 PM: success createPagesStatefully - 0.105s
+6:18:52 PM: info Total nodes: 289, SitePage nodes: 41 (use --verbose for breakdown)
+6:18:52 PM: success Checking for changed pages - 0.000s
+6:18:52 PM: success update schema - 0.216s
+6:18:52 PM: success onPreExtractQueries - 0.003s
+6:18:59 PM: success extract queries from components - 6.837s
+6:18:59 PM: success write out redirect data - 0.001s
+6:19:00 PM: success Build manifest and related icons - 0.281s
+6:19:00 PM: success onPostBootstrap - 0.284s
+6:19:00 PM: info bootstrap finished - 15.643s
+6:19:00 PM: warning Thank you for trying the beta version of the `gatsbyImageData` API. Please provide feedback and report any issues at: https://github.com/gatsbyjs/gatsby/discussions/27950
+6:19:00 PM: warning code block or inline code language not specified in markdown. applying generic code block
+6:19:15 PM: warning Query takes too long:
+6:19:15 PM: File path: /opt/build/repo/src/pages/index.js
+6:19:16 PM: warning Query takes too long:
+6:19:16 PM: File path: /opt/build/repo/src/pages/privacy-policy/PrivacyPolicy.js
+6:19:17 PM: warning Query takes too long:
+6:19:17 PM: File path: /opt/build/repo/src/pages/project.js
+6:19:24 PM: success run static queries - 24.665s - 9/9 0.36/s
+6:19:28 PM: success run page queries - 3.708s - 40/40 10.79/s
+6:19:28 PM: success write out requires - 0.004s
+6:20:05 PM: success Building production JavaScript and CSS bundles - 36.644s
+6:20:05 PM: success Rewriting compilation hashes - 0.001s
+6:20:12 PM: success Building HTML renderer - 7.719s
+6:20:13 PM: failed Building static HTML for pages - 0.392s
+6:20:13 PM: error Building static HTML failed for path "/blog/大亨升級為大大亨-gatsby-3/"
+6:20:13 PM: 
+6:20:13 PM:   75 |     return context[query].data
+6:20:13 PM:   76 |   } else {
+6:20:13 PM: > 77 |     throw new Error(
+6:20:13 PM:      |           ^
+6:20:13 PM:   78 |       `The result of this StaticQuery could not be fetched.\n\n` +
+6:20:13 PM:   79 |         `This is likely a bug in Gatsby and if refreshing the page does not fix it, ` +
+6:20:13 PM:   80 |         `please open an issue in https://github.com/gatsbyjs/gatsby/issues`
+6:20:13 PM: 
+6:20:13 PM:   WebpackError: The result of this StaticQuery could not be fetched.
+6:20:13 PM:   
+6:20:13 PM:   - gatsby-browser-entry.js:77 
+6:20:13 PM:     gatsby-starter-default/.cache/gatsby-browser-entry.js:77:11
+6:20:13 PM:   
+6:20:13 PM:   - seo.js:19 
+6:20:13 PM:     gatsby-starter-default/src/components/seo/seo.js:19:43
+6:20:13 PM:   
+6:20:13 PM:   - cache-common.esm.js:21 
+6:20:13 PM:     [gatsby-starter-default]/[@algolia]/cache-common/dist/cache-common.esm.js:21    :1
+6:20:13 PM:   
+6:20:13 PM:   - cache-common.esm.js:24 
+6:20:13 PM:     [gatsby-starter-default]/[@algolia]/cache-common/dist/cache-common.esm.js:24    :14
+6:20:13 PM:   
+6:20:13 PM:   - cache-common.esm.js:29 
+6:20:13 PM:     [gatsby-starter-default]/[@algolia]/cache-common/dist/cache-common.esm.js:29    :14
+6:20:13 PM:   
+6:20:13 PM:   - cache-common.esm.js:29 
+6:20:13 PM:     [gatsby-starter-default]/[@algolia]/cache-common/dist/cache-common.esm.js:29    :14
+6:20:13 PM:   
+6:20:13 PM:   - cache-common.esm.js:39 
+6:20:13 PM:     [gatsby-starter-default]/[@algolia]/cache-common/dist/cache-common.esm.js:39    :1
+6:20:13 PM:   
+6:20:13 PM:   - static-entry.js:263 
+6:20:13 PM:     gatsby-starter-default/.cache/static-entry.js:263:20
+6:20:13 PM:   
+6:20:13 PM:   - client-common.esm.js:35 
+6:20:13 PM:     [gatsby-starter-default]/[@algolia]/client-common/dist/client-common.esm.js:    35:1
+6:20:13 PM:   
+6:20:13 PM: 
+6:20:13 PM: not finished Generating image thumbnails - 72.538s
+6:20:13 PM: ​
+6:20:13 PM: ────────────────────────────────────────────────────────────────
+6:20:13 PM:   "build.command" failed                                        
+6:20:13 PM: ────────────────────────────────────────────────────────────────
+6:20:13 PM: ​
+6:20:13 PM:   Error message
+6:20:13 PM:   Command failed with exit code 1: gatsby build
+6:20:13 PM: ​
+6:20:13 PM:   Error location
+6:20:13 PM:   In Build command from Netlify app:
+6:20:13 PM:   gatsby build
+6:20:13 PM: ​
+6:20:13 PM:   Resolved config
+6:20:13 PM:   build:
+6:20:13 PM:     command: gatsby build
+6:20:13 PM:     commandOrigin: ui
+6:20:13 PM:     environment:
+6:20:13 PM:       - ALGOLIA_ADMIN_KEY
+6:20:13 PM:       - GATSBY_ALGOLIA_APP_ID
+6:20:13 PM:       - GATSBY_ALGOLIA_SEARCH_KEY
+6:20:13 PM:       - GATSBY_CONTENTFUL_ACCESS_TOKEN
+6:20:13 PM:       - GATSBY_CONTENTFUL_SPACE_ID
+6:20:13 PM:       - GATSBY_MAILCHIMP_ENDPOINT
+6:20:13 PM:       - INCOMING_HOOK_BODY
+6:20:13 PM:       - INCOMING_HOOK_TITLE
+6:20:13 PM:       - INCOMING_HOOK_URL
+6:20:13 PM:     publish: /opt/build/repo/public
+6:20:13 PM: Caching artifacts
+6:20:13 PM: Started saving node modules
+6:20:13 PM: Finished saving node modules
+6:20:13 PM: Started saving build plugins
+6:20:13 PM: Finished saving build plugins
+6:20:13 PM: Started saving pip cache
+6:20:13 PM: Finished saving pip cache
+6:20:13 PM: Started saving emacs cask dependencies
+6:20:13 PM: Finished saving emacs cask dependencies
+6:20:13 PM: Started saving maven dependencies
+6:20:13 PM: Finished saving maven dependencies
+6:20:13 PM: Started saving boot dependencies
+6:20:14 PM: Finished saving boot dependencies
+6:20:14 PM: Started saving rust rustup cache
+6:20:14 PM: Finished saving rust rustup cache
+6:20:14 PM: Started saving go dependencies
+6:20:14 PM: Finished saving go dependencies
+6:20:14 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+6:20:14 PM: Creating deploy upload records
+6:20:14 PM: Failing build: Failed to build site
+6:20:14 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2
+6:20:14 PM: Finished processing build request in 1m51.671040111s
