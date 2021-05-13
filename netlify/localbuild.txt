@@ -1,0 +1,99 @@
+~/D/W/g/gatsby-blog (main=) gatsby build
+success open and validate gatsby-configs - 0.106s
+warn Plugin gatsby-plugin-sitemap is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-plugin-google-gtag is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-plugin-react-helmet is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-source-filesystem is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.2.0
+warn Plugin gatsby-transformer-sharp is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.12.1
+warn Plugin gatsby-plugin-manifest is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.25.0
+warn Plugin gatsby-transformer-remark is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.12.0
+warn Plugin gatsby-plugin-feed is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.4.0
+warn Plugin gatsby-remark-reading-time is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-remark-responsive-iframe is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-remark-images-contentful is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.15
+warn Plugin gatsby-remark-prismjs is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-plugin-sitemap is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-plugin-google-gtag is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-plugin-react-helmet is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-source-filesystem is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.2.0
+warn Plugin gatsby-transformer-sharp is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.12.1
+warn Plugin gatsby-plugin-manifest is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.25.0
+warn Plugin gatsby-remark-reading-time is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-remark-responsive-iframe is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-remark-images-contentful is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.15
+warn Plugin gatsby-remark-prismjs is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.0.0
+warn Plugin gatsby-transformer-remark is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.12.0
+warn Plugin gatsby-plugin-feed is not compatible with your gatsby version 3.4.2 - It requires gatsby@^2.4.0
+success load plugins - 2.328s
+success onPreInit - 0.055s
+success initialize cache - 0.006s
+success copy gatsby files - 0.142s
+success onPreBootstrap - 0.029s
+success createSchemaCustomization - 0.265s
+success Contentful: Sync changed items - 0.273s - 0/1000 3662.65/s
+success Contentful: Fetch data (c8jv10ugzk2s-master) - 1.765s
+info Updated entries 0
+info Deleted entries 0
+info Updated assets 0
+info Deleted assets 0
+success Contentful: Process data (c8jv10ugzk2s-master) - 0.051s
+info Creating 8 Contentful Blog nodes
+info Creating 2 Contentful allCategory nodes
+info Creating 7 Contentful allTag nodes
+info Creating 2 Contentful Privacy Policy nodes
+info Creating 3 Contentful About nodes
+info Creating 2 Contentful project nodes
+info Creating 28 Contentful asset nodes
+success Contentful: Create nodes (c8jv10ugzk2s-master) - 0.031s
+info Download Contentful asset files
+success Downloading Contentful Assets - 0.032s - 0/28 875.61/s
+success Checking for changed pages - 0.002s
+success source and transform nodes - 2.193s
+success building schema - 1.661s
+success createPages - 0.142s
+success createPagesStatefully - 0.111s
+info Total nodes: 289, SitePage nodes: 41 (use --verbose for breakdown)
+success Checking for changed pages - 0.002s
+success Cleaning up stale page-data - 0.006s
+success update schema - 0.221s
+success onPreExtractQueries - 0.002s
+success extract queries from components - 6.483s
+success write out redirect data - 0.003s
+success Build manifest and related icons - 0.425s
+success onPostBootstrap - 7.614s
+info bootstrap finished - 29.355s
+warn Thank you for trying the beta version of the `gatsbyImageData` API. Please provide feedback and report any issues at:
+https://github.com/gatsbyjs/gatsby/discussions/27950
+success run static queries - 1.613s - 4/4 2.48/s
+success run page queries - 4.697s - 35/35 7.45/s
+success write out requires - 0.009s
+success Building production JavaScript and CSS bundles - 31.656s
+success Rewriting compilation hashes - 0.003s
+success Building HTML renderer - 6.643s
+success Building static HTML for pages - 0.905s - 40/40 44.21/s
+success Delete previous page data - 0.004s
+success Generating image thumbnails - 54.503s - 20/20 0.37/s
+success index to Algolia - 3.299s - Done!
+success onPostBuild - 3.383s
+info Done building in 79.609126464 sec
+info
+Hi from the Gatsby maintainers! Based on what we see in your site, these coming
+features may help you. All of these can be enabled within gatsby-config.js via
+flags (samples below)
+
+Persistent webpack caching (https://github.com/gatsbyjs/gatsby/discussions/28331), which enables webpack's persist caching and changes Gatsby's cache clearing
+ behavior to not clear webpack's
+cache unless you run "gatsby clean" or delete the .cache folder manually.
+Here's how to try it:
+
+module.exports = {
+  flags: { PRESERVE_WEBPACK_CACHE: true },
+  plugins: [...]
+}
+
+
+~/D/W/g/gatsby-blog (main=) gatsby serve
+⠀
+You can now view gatsby-starter-default in the browser.
+⠀
+  http://localhost:9000/
